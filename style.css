@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    
+}
+
+#BigContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+}
+
+#Main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+#Banner{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 2%;
+    background-color: lightgrey;
+}
+
+#Sidebar{
+    display: flex;
+    width: 15%;
+    height: auto;
+    margin-right: 2%;
+    background-color: lightgray;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Part1{
+    display: flex;
+    margin: 1%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ImageSize1{
+    width: 300px;
+}
+
+.genericText{
+    font-size:150%
+}
+
+#FlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.RecommendedImage{
+    height: auto;
+    width: 70%;
+}
+
+.RecommendedText{
+    font-size: 100%;
+}
+
+.sidebarDiv{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+
+.imageBackground1{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 500px; 
+    padding: 0%;
+}
+
+#BigText{
+    font-size: 200;
+}
+#Images2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#Part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ImageSize2{
+    width:100px ;
+}
+.imageBackground2{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding: 3%;
+    width: 90px;
+}
+#Part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageBackground3{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    min-width: 100px;
+    margin-bottom: 4%;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    justify-content: space-evenly;
+
+}
+.ImageSize3{
+    width:30% ;
+    min-width: 100%;
+}
+
+#Footnotes{}
