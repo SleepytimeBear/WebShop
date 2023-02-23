@@ -153,4 +153,24 @@ a{
     min-width: 100%;
 }
 
-#Footnotes{}
+footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.footerText{
+    color: white;
+}
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRow{
+    display: flex;
+    flex-direction: row;
+}
+.linkImage{
+    max-width: 2%;
+    min-width: 50px;
+}
